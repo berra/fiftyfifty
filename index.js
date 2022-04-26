@@ -1,5 +1,5 @@
 function fiftyfifty() {
-  return Math.round(Math.random())
+  return Boolean(Math.round(Math.random()));
 }
 
 export default fiftyfifty;
