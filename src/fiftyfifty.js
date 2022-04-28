@@ -1,3 +1,3 @@
-export default function fiftyfifty() {
-  return Boolean(Math.round(Math.random()));
+export default function fiftyfifty(trueValue = true, falseValue = false) {
+  return Boolean(Math.round(Math.random())) ? trueValue : falseValue;
 }
