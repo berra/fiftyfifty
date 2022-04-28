@@ -1,5 +1,4 @@
-function fiftyfifty() {
-  return Boolean(Math.round(Math.random()));
-}
+import fiftyfifty from "./src/fiftyfifty.js";
+import coinflip from "./src/coinflip.js";
 
-export default fiftyfifty;
+export { fiftyfifty as default, coinflip };
